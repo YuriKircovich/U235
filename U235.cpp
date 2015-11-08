@@ -6,8 +6,6 @@
 int main()
 {
 
-	//GetConsoleScreenBufferInfo(hstdout, &csbi);
-
 	getConsoleAttri();
 
 	printColor("Uranium 235\n\n", 10);

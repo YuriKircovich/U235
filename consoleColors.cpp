@@ -13,7 +13,7 @@ void getConsoleAttri() {
 
 }
 
-//Prints bright green foreground, black background.
+//Prints text (args) with colored text (color)
 void printColor(std::string args, int color) {
 
 	SetConsoleTextAttribute(hstdout, color);
